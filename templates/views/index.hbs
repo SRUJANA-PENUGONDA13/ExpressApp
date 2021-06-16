@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel = "stylesheet" href = "./css/style.css">
+    <title>
+      Sample Express Web Server
+    </title>
+  </head>
+  <body>
+    {{>header}}
+    <div>
+      <p>
+        <h2> Hi {{title}} Handle bar Template is working</h2>
+        <a href = '/about'> About</a>
+      </p>
+      <form>
+        <input type="text" placeholder = "Name">
+        <button>Submit</button>
+      </form>
+
+      <p id = "message1"></p>
+      <p id = "message2"></p>
+    </div>
+    <script src ="./js/app.js"></script>
+  </body>
+</html>
